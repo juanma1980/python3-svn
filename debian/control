@@ -1,0 +1,18 @@
+Source: python3-svn
+Section: python
+Priority: standard
+Maintainer: Equipo LliureX <lliurex@gva.es>
+Uploaders: Raul Rodrigo Segura <raurodse@gmail.com>, Hector Garcia Huerta <hectorgh@gmail.com>
+Build-Depends: debhelper (>= 9.0.0),
+               dh-python,
+               python-all,
+               python-setuptools,
+               python3-setuptools,
+               python3-all,
+Standards-Version: 4.1.4
+
+Package: python3-svn
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Python3 subversion bindings
+
